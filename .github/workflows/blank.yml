@@ -29,7 +29,7 @@ jobs:
             repo: from-template
             github_token: ${{ secrets.TEST_SECRET }}
             github_user: RjDev
-            workflow_file_name: main.yml
+            workflow_file_name: main.yaml
             ref: from-template
             wait_interval: 10
             client_payload: '{}'
