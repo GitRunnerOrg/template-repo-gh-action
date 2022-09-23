@@ -30,7 +30,7 @@ jobs:
             github_token: ${{ secrets.TEST_SECRET }}
             github_user: RjDev
             workflow_file_name: main.yaml
-            ref: from-template
+            ref: fc5e237
             wait_interval: 10
             client_payload: '{}'
             propagate_failure: false
